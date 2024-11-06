@@ -2,19 +2,19 @@ macro_aa_w: macro_aa_w{
 compatible = "zmk,behavior-macro";
 label = "macro_aa_w";
 #binding-cells = <0>;
-bindings = <&kp RALT>, <&kp W>;
+bindings = <&sk RALT>, <&kp W>;
 };
 macro_ae_w: macro_ae_w{
 compatible = "zmk,behavior-macro";
 label = "macro_ae_w";
 #binding-cells = <0>;
-bindings = <&kp RALT>, <&kp Z>;
+bindings = <&sk RALT>, <&kp Z>;
 };
 macro_oe_w: macro_oe_w{
 compatible = "zmk,behavior-macro";
 label = "macro_oe_w";
 #binding-cells = <0>;
-bindings = <&kp RALT>, <&kp L>;
+bindings = <&sk RALT>, <&kp L>;
 };
 macro_grave: macro_grave{
 compatible = "zmk,behavior-macro";
