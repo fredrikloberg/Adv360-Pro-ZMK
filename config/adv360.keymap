@@ -80,11 +80,11 @@
 
         layer_Windows {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_ALT   &kp LCMD                   &kp RCMD  &kp RIGHT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                     &trans                     &trans                         &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans        &trans  &kp LCTRL                  &kp RCTRL         &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &macro_aa_w                                                                     &macro_oe_w  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &kp LEFT_ALT   &kp LCMD                   &kp RCMD  &kp RIGHT_ALT  &macro_ae_w  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                          &trans                     &trans                              &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                         &trans        &trans  &kp LCTRL                  &kp RCTRL         &trans       &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
